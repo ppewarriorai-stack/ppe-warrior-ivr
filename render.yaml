@@ -1,0 +1,9 @@
+services:
+  - name: ppe-warrior-ivr
+    repo: https://github.com/ppewarriorai-stack/ppe-warrior-ivr
+    branch: main
+    region: oregon
+    plan: starter
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
